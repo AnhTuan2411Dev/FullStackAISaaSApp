@@ -68,43 +68,43 @@ export const assets: Assets = {
 
 export const AiToolsData: AiToolData[] = [
     {
-        title: 'AI Article Writer',
-        description: 'Generate high-quality, engaging articles on any topic with our AI writing technology.',
+        title: 'Công cụ viết bài AI',
+        description: 'Tạo ra các bài viết chất lượng cao, hấp dẫn về bất kỳ chủ đề nào với công nghệ viết AI của chúng tôi.',
         Icon: SquarePen,
         bg: { from: '#3588F2', to: '#0BB0D7' },
         path: '/ai/write-article'
     },
     {
-        title: 'Blog Title Generator',
-        description: 'Find the perfect, catchy title for your blog posts with our AI-powered generator.',
+        title: 'Tạo tiêu đề Blog',
+        description: 'Tìm tiêu đề hoàn hảo, bắt mắt cho các bài đăng blog của bạn với bộ tạo tiêu đề được hỗ trợ bởi AI.',
         Icon: Hash,
         bg: { from: '#B153EA', to: '#E549A3' },
         path: '/ai/blog-titles'
     },
     {
-        title: 'AI Image Generation',
-        description: 'Create stunning visuals with our AI image generation tool, Experience the power of AI ',
+        title: 'Tạo ảnh AI',
+        description: 'Tạo ra những hình ảnh tuyệt đẹp với công cụ tạo ảnh AI của chúng tôi, Trải nghiệm sức mạnh của AI',
         Icon: Image,
         bg: { from: '#20C363', to: '#11B97E' },
         path: '/ai/generate-images'
     },
     {
-        title: 'Background Removal',
-        description: 'Effortlessly remove backgrounds from your images with our AI-driven tool.',
+        title: 'Xóa nền ảnh',
+        description: 'Dễ dàng xóa nền khỏi hình ảnh của bạn với công cụ được hỗ trợ bởi AI.',
         Icon: Eraser,
         bg: { from: '#F76C1C', to: '#F04A3C' },
         path: '/ai/remove-background'
     },
     {
-        title: 'Object Removal',
-        description: 'Remove unwanted objects from your images seamlessly with our AI object removal tool.',
+        title: 'Xóa đối tượng',
+        description: 'Xóa các đối tượng không mong muốn khỏi hình ảnh của bạn một cách liền mạch với công cụ xóa đối tượng AI.',
         Icon: Scissors,
         bg: { from: '#5C6AF1', to: '#427DF5' },
         path: '/ai/remove-object'
     },
     {
-        title: 'Resume Reviewer',
-        description: 'Get your resume reviewed by AI to improve your chances of landing your dream job.',
+        title: 'Đánh giá CV',
+        description: 'Để AI đánh giá CV của bạn nhằm cải thiện cơ hội có được công việc mơ ước.',
         Icon: FileText,
         bg: { from: '#12B7AC', to: '#08B6CE' },
         path: '/ai/review-resume'
@@ -114,23 +114,23 @@ export const AiToolsData: AiToolData[] = [
 export const dummyTestimonialData: TestimonialData[] = [
     {
         image: assets.profile_img_1,
-        name: 'John Doe',
-        title: 'Marketing Director, TechCorp',
-        content: 'ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.',
+        name: 'Nguyễn Văn A',
+        title: 'Giám đốc Marketing, TechCorp',
+        content: 'ContentAI đã cách mạng hóa quy trình làm việc nội dung của chúng tôi. Chất lượng bài viết rất xuất sắc và giúp chúng tôi tiết kiệm hàng giờ làm việc mỗi tuần.',
         rating: 4,
     },
     {
         image: assets.profile_img_1,
-        name: 'Jane Smith',
-        title: 'Content Creator, TechCorp',
-        content: 'ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.',
+        name: 'Trần Thị B',
+        title: 'Người tạo nội dung, TechCorp',
+        content: 'ContentAI đã làm cho quá trình tạo nội dung của chúng tôi trở nên dễ dàng. Các công cụ AI đã giúp chúng tôi sản xuất nội dung chất lượng cao nhanh hơn bao giờ hết.',
         rating: 5,
     },
     {
         image: assets.profile_img_1,
-        name: 'David Lee',
-        title: 'Content Writer, TechCorp',
-        content: 'ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.',
+        name: 'Lê Văn C',
+        title: 'Biên tập viên nội dung, TechCorp',
+        content: 'ContentAI đã biến đổi quy trình tạo nội dung của chúng tôi. Các công cụ AI đã giúp chúng tôi sản xuất nội dung chất lượng cao nhanh hơn bao giờ hết.',
         rating: 4,
     },
 ];
@@ -139,8 +139,8 @@ export const dummyCreationData: CreationData[] = [
     {
         "id": 9,
         "user_id": "user_2yMX02PRbyMtQK6PebpjnxvRNIA",
-        "prompt": "Generate a blog title for the keyword blog in the category Technology.",
-        "content": "Here are a few blog title options for a technology blog, playing with different angles:\n\n**General & Broad:**\n\n*   The Tech Blog: News, Reviews, and Insights\n*   Technology Today: Your Daily Dose of Tech\n*   The Future is Now: Exploring the World of Technology\n*   Tech Talk: Unpacking the Latest Innovations\n\n**More Specific & Intriguing:**\n\n*   Decoding Tech: Making Sense of the Digital World\n*   Beyond the Gadgets: The",
+        "prompt": "Tạo tiêu đề blog cho từ khóa blog trong danh mục Công nghệ.",
+        "content": "Dưới đây là một số lựa chọn tiêu đề blog cho blog công nghệ, với các góc độ khác nhau:\n\n**Tổng quát & Rộng:**\n\n*   Blog Công nghệ: Tin tức, Đánh giá và Thông tin chi tiết\n*   Công nghệ Hôm nay: Liều lượng Công nghệ Hàng ngày của Bạn\n*   Tương lai là Bây giờ: Khám phá Thế giới Công nghệ\n*   Nói chuyện Công nghệ: Giải mã những Đổi mới Mới nhất\n\n**Cụ thể hơn & Hấp dẫn:**\n\n*   Giải mã Công nghệ: Hiểu rõ Thế giới Số\n*   Vượt ra ngoài Thiết bị: The",
         "type": "blog-title",
         "publish": false,
         "likes": [],
@@ -150,8 +150,8 @@ export const dummyCreationData: CreationData[] = [
     {
         "id": 8,
         "user_id": "user_2yMX02PRbyMtQK6PebpjnxvRNIA",
-        "prompt": "Generate a blog title for the keyword blog in the category General.",
-        "content": "Here are a few blog title options for a blog about blogs in the General category, ranging from straightforward to a bit more creative:\n\n**Straightforward:**\n\n*   The Blog Blog: Everything You Need to Know About Blogging\n*   Blogging Insights: Tips, Tricks, and Trends\n*   Your Guide to the World of Blogging\n\n**More Creative:**\n\n*   Beyond the Post: Exploring the Art of Blogging\n*   Blogosphere Unlocked: Navigating the World of Online Writing",
+        "prompt": "Tạo tiêu đề blog cho từ khóa blog trong danh mục Tổng quát.",
+        "content": "Dưới đây là một số lựa chọn tiêu đề blog cho blog về các blog trong danh mục Tổng quát, từ đơn giản đến sáng tạo hơn:\n\n**Đơn giản:**\n\n*   Blog về Blog: Mọi thứ Bạn Cần Biết về Viết Blog\n*   Thông tin về Blog: Mẹo, Thủ thuật và Xu hướng\n*   Hướng dẫn của Bạn về Thế giới Blog\n\n**Sáng tạo hơn:**\n\n*   Vượt ra ngoài Bài đăng: Khám phá Nghệ thuật Viết Blog\n*   Mở khóa Blogosphere: Điều hướng Thế giới Viết Trực tuyến",
         "type": "blog-title",
         "publish": false,
         "likes": [],
@@ -161,8 +161,8 @@ export const dummyCreationData: CreationData[] = [
     {
         "id": 7,
         "user_id": "user_2yMX02PRbyMtQK6PebpjnxvRNIA",
-        "prompt": "Write an article about AI With Coding in Short (500-800 word).",
-        "content": "## AI and Coding: A Symbiotic Partnership Reshaping the Future\n\nArtificial intelligence (AI) and coding, once distinct disciplines, are now deeply intertwined, forging a powerful symbiotic relationship that's revolutionizing industries and accelerating innovation. Understanding this connection is crucial for anyone seeking to navigate the future of technology.\n\nAt its core, AI is the ability of a machine to mimic intelligent human behavior. This is achieved through algorithms, which are essentially sets of instructions meticulously crafted by programmers – coders. Coding, therefore, is the backbone of AI, providing the language and structure necessary to bring these algorithms to life.\n\n**Coding Fuels AI: Building the Foundation**\n\nAI models don't magically appear. They are built, trained, and deployed using code. Here's how:\n\n*   **Data Preprocessing:** Raw data, the lifeblood of AI, is often messy and unusable in its original form. Coders use programming languages like Python with libraries like Pandas and NumPy to clean, transform, and prepare this data for training. This involves handling missing values, removing inconsistencies, and formatting data into a suitable structure.\n*   **Model Development:** Coders utilize programming languages like Python and R, coupled with machine learning libraries like TensorFlow, PyTorch, and scikit-learn, to build and train AI models. These libraries provide pre-built functionalities and tools that simplify the process of creating complex algorithms.\n*   **Deployment and Integration:** Once trained, AI models need to be deployed and integrated into real-world applications. This involves writing code to connect the model to existing systems, handle user input, and present the results in a user-friendly manner.\n*   **Maintenance and Optimization:** AI models are not static entities. They require constant monitoring, maintenance, and optimization to ensure they remain accurate and effective. Coders play a vital role in identifying and addressing performance issues, retraining models with new data, and adapting them to changing requirements.\n\n**AI Empowers Coding: Revolutionizing Development**\n\nThe relationship isn't just one-way. AI is also transforming the way coding is done, making developers more efficient and productive.\n\n*   **Code Completion and Suggestion:** AI-powered tools like GitHub Copilot and Tabnine analyze code context and suggest code snippets, reducing repetitive tasks and accelerating development. These tools learn from vast code repositories and can predict what a developer is likely to write next, saving significant time and effort.\n*   **Automated Testing and Debugging:** AI can automate the process of testing code and identifying bugs. By analyzing code patterns and identifying potential vulnerabilities, AI tools can help developers catch errors early and improve code quality.\n*   **Code Generation:** AI is increasingly capable of generating code from natural language descriptions. This allows developers to focus on the higher-level aspects of software design and leave the more tedious coding tasks to AI.\n*   **Personalized Learning:** AI can personalize the learning experience for aspiring coders by tailoring educational content and providing individualized feedback. This can make learning to code more effective and engaging.\n\n**The Future: Collaboration and Specialization**\n\nThe future of AI and coding is one of increasing collaboration and specialization. As AI becomes more sophisticated, coders will need to focus on higher-level tasks such as designing AI architectures, managing data pipelines, and ensuring ethical considerations are addressed.\n\nThe demand for skilled professionals who understand both AI and coding is rapidly growing. Individuals with this skillset are well-positioned to lead the charge in developing innovative AI-powered solutions across a wide range of industries.\n\n**In conclusion,** AI and coding are not separate entities but rather two sides of the same coin. Coding provides the foundation for AI, while AI empowers coding, leading to a more efficient and innovative development process. Understanding this symbiotic relationship is essential for anyone seeking to thrive in the rapidly evolving landscape of technology. As AI continues to advance, the demand for skilled professionals who can bridge",
+        "prompt": "Viết một bài về AI với Lập trình trong Ngắn gọn (500-800 từ).",
+        "content": "## AI và Lập trình: Mối quan hệ Cộng sinh Định hình lại Tương lai\n\nTrí tuệ nhân tạo (AI) và lập trình, từng là những lĩnh vực riêng biệt, giờ đây đã gắn kết chặt chẽ, tạo nên một mối quan hệ cộng sinh mạnh mẽ đang cách mạng hóa các ngành công nghiệp và thúc đẩy đổi mới. Hiểu được mối liên kết này là rất quan trọng đối với bất kỳ ai muốn định hướng trong tương lai của công nghệ.\n\nCơ bản, AI là khả năng của máy móc bắt chước hành vi thông minh của con người. Điều này đạt được thông qua các thuật toán, về cơ bản là những bộ hướng dẫn được các lập trình viên - những người viết code - tạo ra một cách tỉ mỉ. Do đó, lập trình là xương sống của AI, cung cấp ngôn ngữ và cấu trúc cần thiết để biến những thuật toán này thành hiện thực.\n\n**Lập trình Thúc đẩy AI: Xây dựng Nền tảng**\n\nCác mô hình AI không xuất hiện một cách kỳ diệu. Chúng được xây dựng, huấn luyện và triển khai bằng cách sử dụng code. Đây là cách:\n\n*   **Tiền xử lý Dữ liệu:** Dữ liệu thô, nguồn sống của AI, thường rối rắm và không thể sử dụng ở dạng ban đầu. Các lập trình viên sử dụng ngôn ngữ lập trình như Python với các thư viện như Pandas và NumPy để làm sạch, chuyển đổi và chuẩn bị dữ liệu này cho việc huấn luyện.\n*   **Phát triển Mô hình:** Các lập trình viên sử dụng ngôn ngữ lập trình như Python và R, kết hợp với các thư viện máy học như TensorFlow, PyTorch và scikit-learn để xây dựng và huấn luyện các mô hình AI.\n*   **Triển khai và Tích hợp:** Sau khi được huấn luyện, các mô hình AI cần được triển khai và tích hợp vào các ứng dụng thực tế. Điều này bao gồm việc viết code để kết nối mô hình với các hệ thống hiện có.\n*   **Bảo trì và Tối ưu hóa:** Các mô hình AI không phải là thực thể tĩnh. Chúng cần được giám sát, bảo trì và tối ưu hóa liên tục để đảm bảo chúng vẫn chính xác và hiệu quả.\n\n**AI Trao quyền cho Lập trình: Cách mạng hóa Phát triển**\n\nMối quan hệ không chỉ là một chiều. AI cũng đang biến đổi cách thức lập trình, làm cho các nhà phát triển hiệu quả và năng suất hơn.\n\n*   **Hoàn thành và Gợi ý Code:** Các công cụ được hỗ trợ bởi AI như GitHub Copilot và Tabnine phân tích ngữ cảnh code và gợi ý các đoạn code, giảm bớt các tác vụ lặp đi lặp lại và tăng tốc phát triển.\n*   **Kiểm thử và Gỡ lỗi Tự động:** AI có thể tự động hóa quá trình kiểm thử code và xác định lỗi. Bằng cách phân tích các mẫu code và xác định các lỗ hổng tiềm ẩn, các công cụ AI có thể giúp các nhà phát triển phát hiện lỗi sớm.\n*   **Tạo Code:** AI ngày càng có khả năng tạo code từ các mô tả bằng ngôn ngữ tự nhiên. Điều này cho phép các nhà phát triển tập trung vào các khía cạnh cấp cao hơn của thiết kế phần mềm.\n*   **Học tập Cá nhân hóa:** AI có thể cá nhân hóa trải nghiệm học tập cho những người mong muốn học lập trình bằng cách điều chỉnh nội dung giáo dục và cung cấp phản hồi cá nhân.\n\n**Tương lai: Hợp tác và Chuyên môn hóa**\n\nTương lai của AI và lập trình là một sự hợp tác và chuyên môn hóa ngày càng tăng. Khi AI trở nên tinh vi hơn, các lập trình viên sẽ cần tập trung vào các nhiệm vụ cấp cao hơn như thiết kế kiến trúc AI, quản lý pipeline dữ liệu và đảm bảo các cân nhắc đạo đức được giải quyết.\n\nNhu cầu về các chuyên gia có kỹ năng hiểu cả AI và lập trình đang tăng nhanh. Những cá nhân có bộ kỹ năng này có vị trí tốt để dẫn đầu trong việc phát triển các giải pháp được hỗ trợ bởi AI sáng tạo trên nhiều ngành công nghiệp.\n\n**Kết luận,** AI và lập trình không phải là những thực thể riêng biệt mà đúng hơn là hai mặt của cùng một đồng xu. Lập trình cung cấp nền tảng cho AI, trong khi AI trao quyền cho lập trình, dẫn đến một quá trình phát triển hiệu quả và sáng tạo hơn. Hiểu được mối quan hệ cộng sinh này là điều cần thiết cho bất kỳ ai muốn phát triển trong bối cảnh công nghệ đang phát triển nhanh chóng. Khi AI tiếp tục tiến bộ, nhu cầu về các chuyên gia có kỹ năng có thể kết nối",
         "type": "article",
         "publish": false,
         "likes": [],
@@ -175,7 +175,7 @@ export const dummyPublishedCreationData: CreationData[] = [
     {
         "id": 1,
         "user_id": "user_2yMX02PRbyMtQK6PebpjnxvRNIA",
-        "prompt": "Generate an image of A Boy is on Boat , and fishing in the style Anime style.",
+        "prompt": "Tạo hình ảnh một cậu bé đang ở trên thuyền và câu cá theo phong cách Anime.",
         "content": ai_gen_img_1,
         "type": "image",
         "publish": true,
@@ -189,7 +189,7 @@ export const dummyPublishedCreationData: CreationData[] = [
     {
         "id": 2,
         "user_id": "user_2yMX02PRbyMtQK6PebpjnxvRNIA",
-        "prompt": "Generate an image of A Boy Riding a bicycle on road and bicycle is from year 2201  in the style Anime style.",
+        "prompt": "Tạo hình ảnh một cậu bé đi xe đạp trên đường và xe đạp từ năm 2201 theo phong cách Anime.",
         "content": ai_gen_img_2,
         "type": "image",
         "publish": true,
@@ -203,7 +203,7 @@ export const dummyPublishedCreationData: CreationData[] = [
     {
         "id": 3,
         "user_id": "user_2yaW5EHzeDfQbXdAJWYFnZo2bje",
-        "prompt": "Generate an image of a boy riding a car on sky in the style Realistic.",
+        "prompt": "Tạo hình ảnh một cậu bé đi ô tô trên bầu trời theo phong cách Realistic.",
         "content": ai_gen_img_3,
         "type": "image",
         "publish": true,
